@@ -5,7 +5,7 @@ const Project = ({project}) => {
 
     const {name,description,image,livelink,codelink} = project;
     return (
-        <div className="col-lg-6 col-12 single-project mt-5 mb-5 ">
+        <div className="col-lg-12 col-12 single-project mt-5 mb-5 ">
             <img src={image} alt=""></img>
             <h4 className='mt-3'>{name}</h4>
             <p>{description}</p>

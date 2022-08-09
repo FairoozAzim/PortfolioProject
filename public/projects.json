@@ -17,17 +17,9 @@
       "image": "https://i.ibb.co/wpgC3QX/furniture-store.png",
       "category": "frontend"
     },
+    
     {
       "id": "3",
-      "name": "Dark Portfolio",
-      "description": "A portfolio website with dark background made with plain HTML, CSS.",
-      "livelink": "https://fairoozazim.github.io/dark-portfolio-template-clone/index.html",
-      "codelink": "https://github.com/FairoozAzim/dark-portfolio-template-clone",
-      "image": "https://i.ibb.co/T0G25Yn/dark-portfolio.png",
-      "category": "frontend"
-    },
-    {
-      "id": "4",
       "name": "Fitness 101",
       "description": "A website for fitness training center using React JS.",
       "livelink": "https://fitnesstraining.netlify.app",
@@ -36,7 +28,7 @@
       "category": "frontend"
     },
     {
-      "id": "5",
+      "id": "4",
       "name": "Lumos",
       "description": "A niche website for lamp shades.",
       "livelink": "https://lumos-e9a84.web.app/",
@@ -46,7 +38,7 @@
       "category": "fullstack"
     },
     {
-      "id": "6",
+      "id": "5",
       "name": "Fly Away",
       "description": "A tourism website using React JS.",
       "livelink": "https://fly-away-5823f.web.app/",

@@ -1,6 +1,25 @@
-.about{
-    background-color: aqua;
-    width: 30vw;
-    height: 300px;
-    padding: 4%;
+.about-container{
+    width: 90vw;
+}
+.about-text{
+    width: 50%;
+    text-align: justify;
+}
+.skill-container{
+    width: 50%;
+}
+
+.skill{
+    height: 90px;
+    width: 90px;
+    /* border: 5px solid rgb(131, 129, 129); */
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 1em;
+    line-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    
 }

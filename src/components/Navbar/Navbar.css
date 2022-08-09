@@ -1,0 +1,36 @@
+.menubar{
+    position: fixed;
+    right: 0;
+    background-color: var(--pale-black);
+    height: 100vh;
+    padding: 2em;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.vert-nav{
+   margin: auto;
+   
+}
+.nav-items{
+    margin-bottom: 2em;
+    color: white; 
+    align-items:flex-start;
+}
+
+.footer{
+  margin-top: 2em;
+  margin-left: 1.2em;
+  
+}
+.links{
+    margin-right: 1em;
+    color: lightgray;
+    font-size: 25px;
+    margin-top: 1em;
+    
+}
+.links:hover{
+    color:var(--accent-yellow);
+}

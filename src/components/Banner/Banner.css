@@ -1,17 +1,39 @@
+.banner-container{
+    position: relative;
+}
 .banner{
     height: 100vh;
     width: 100vw;
 }
+.banner-container::before{
+    content: '';
+    background-color: var(--accent-yellow);
+    width: 560px;
+    height: 100vh !important;
+    display: flex;
+    position: absolute;
+    z-index: -50;
+}
+
 .banner h1{
     font-family:  'Shippori Antique', sans-serif;
     font-weight: bolder;
 
 }
-.header{
-    font-size: 50px;
+.brand{
+    color: var(--pale-black);
+    font-weight: bolder;
+}
+
+
+
+.header h1{
+    font-size: 120px;
+    text-align: left;
 }
 .mt-text{
-    margin-top: 15%;
+    margin-top: 5%;
+    
 }
 .button{
     background-color: white;
@@ -20,4 +42,13 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: bolder;
+}
+.line{
+    stroke-width: 7;
+    stroke: rgb(0, 0, 0);
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
